@@ -1,0 +1,14 @@
+{
+    "name": "Jobs-Digger"
+  , "author": "Enrique Chavez aka Tmeister http://tmeister.net"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+		    "express": "2.4.7"
+    , 	"stylus": ">= 0.0.1"
+    , 	"jade": ">= 0.0.1"
+    , 	"socket.io": ">=0.8.5"
+    ,	  "mongoose" : ">=2.3.3"
+    ,   "twitter-node" : "https://github.com/technoweenie/twitter-node/tarball/ec4eb261891d78a88faabea54ea1016fd884b804"
+  }
+}

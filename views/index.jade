@@ -1,0 +1,22 @@
+.header
+	.container
+		.row
+			.tencol
+				h1 Jobs Digger
+			.twocol.last.by
+				p.right by <a href="http://tmeister.net/">Tmeister</a>
+
+.main
+	.container
+		.row
+			.sixcol
+				.jobs
+
+			.sixcol.last
+				.detail
+					#status.hide
+					.search
+						form(id="search", action="#", method="post")
+							input(type="text", placeholder="e.g New York", id="keyword")
+							input(type="submit", value="Search")
+					#map_container.map
